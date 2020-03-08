@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/me2"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#018CFB"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/me"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/me3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="300dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="Ahmad Alfarizki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ahmfariz24@gmail.com"
+        android:layout_marginTop="270dp"
+        android:textColor="@android:color/darker_gray"/>
+
+
+    <TextView
+        android:layout_width="100pt"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Android Developer\nWeb Developer \nUI/UX Design "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"/>
+
+</RelativeLayout>
